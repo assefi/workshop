@@ -1,0 +1,120 @@
+body{
+	//background-color: orange;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1, h3{
+	font-size: 32px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h3{
+	font-size: 24px;
+}
+
+h4{
+	font-size: 16px;
+}
+
+
+nav{
+	background-color: black;
+	font-size: 12px;	
+	color: white;
+	padding: 20px 0;
+}
+
+nav div{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+.menu{
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+.menu li{
+	padding: 0 10px;
+}
+.menu li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+}
+.contenedor{
+	max-width: 1024px;
+	margin: auto;
+}
+
+.fa-star{
+	font-size: 24px;
+}
+
+.azul{
+	color: rgb(44,62,80);
+}
+
+.estrella::before, .estrella::after{
+	content: "";
+	display: inline-block;
+	height: 3px;
+	width: 50px;
+	background-color: white;
+	margin: 0 5px 7px;
+}
+
+.blanco .estrella::before, .blanco .estrella::after{
+	background-color: black;
+}
+
+.verde{
+		background-color: rgb(24,188,156);
+}
+.centrado{
+	text-align: center;
+	padding: 20px 0;
+}
+.centrado h1, h2, h3{
+	margin: 20px 0; 
+}
+.verde > .contenedor{
+	color: white;
+}
+
+.blanco > .contenedor{
+	color: black;
+
+}
+
+.item{
+	//display: inline-block;
+	float: left;
+	width: 32%; 
+	margin: 5px;
+	box-sizing: border-box;
+}
+.overflow{
+	overflow: auto;
+}
+
+.imagen{
+	width: 100%;
+}
+
+.nosotros p{
+	display: inline-block;
+	width: 49%; 
+	padding: 20px 10px;
+	box-sizing: border-box;
+	vertical-align: top;
+}
+
+ 
+
